@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>2026 投考組合動態查詢系統</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400;700;900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <!-- 頂部紫色漸層 Header -->
+        <div class="header">
+            <div class="header-title">
+                <h2>🎓 2026 投考組合動態查詢系統</h2>
+                <p>精準分析，找出你的最佳考取策略 (GitHub Pages 測試版)</p>
+            </div>
+            <div class="header-badge">
+                ✅ 系統已載入就緒
+            </div>
+        </div>
+
+        <!-- 搜尋與下拉篩選區 -->
+        <div class="search-filter-section">
+            <div class="search-bar">
+                <input type="text" id="searchInput" placeholder="🔍 請輸入學校、科系或考科關鍵字...">
+                <button id="resetBtn">🔄 重設篩選</button>
+            </div>
+            <div class="filters">
+                <select id="typeFilter">
+                    <option value="">所有公/私立</option>
+                    <option value="公立">公立</option>
+                    <option value="私立">私立</option>
+                </select>
+                <select id="collegeFilter">
+                    <option value="">所有學院領域</option>
+                    <option value="電機資訊學院">電機資訊學院</option>
+                    <option value="工學院">工學院</option>
+                    <option value="理學院">理學院</option>
+                    <option value="文學院">文學院</option>
+                </select>
+            </div>
+        </div>
+
+        <!-- 結果表格區 -->
+        <div class="table-container">
+            <table id="dataTable">
+                <thead>
+                    <tr>
+                        <th>公/私立</th>
+                        <th>學院領域</th>
+                        <th>學校</th>
+                        <th>學系組別名稱</th>
+                        <th>招生名額</th>
+                        <th class="text-left">考試項目(科目)</th>
+                    </tr>
+                </thead>
+                <tbody id="tableBody">
+                    <!-- JavaScript 會將資料填入這裡 -->
+                </tbody>
+            </table>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,176 @@
+body {
+    font-family: 'Noto Sans TC', sans-serif;
+    background-color: #f5f7fa;
+    color: #333;
+    margin: 0;
+    padding: 20px;
+}
+
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+    background-color: transparent;
+}
+
+.header {
+    background: linear-gradient(135deg, #4c35e6 0%, #2f1d9e 100%);
+    color: #ffffff;
+    padding: 20px 25px;
+    border-radius: 8px 8px 0 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    gap: 15px;
+}
+
+.header h2 {
+    margin: 0;
+    font-size: 22px;
+    font-weight: 800;
+}
+
+.header p {
+    margin: 5px 0 0 0;
+    font-size: 14px;
+    color: #d1d8ff;
+}
+
+.header-badge {
+    background-color: rgba(255, 255, 255, 0.15);
+    border: 1px solid rgba(255,255,255,0.3);
+    padding: 8px 15px;
+    border-radius: 30px;
+    font-size: 13px;
+    font-weight: bold;
+}
+
+.search-filter-section {
+    background-color: #ffffff;
+    padding: 20px;
+    border: 1px solid #eaeaea;
+    border-top: none;
+    margin-bottom: 20px;
+    border-radius: 0 0 8px 8px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.03);
+}
+
+.search-bar {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 15px;
+    flex-wrap: wrap;
+}
+
+.search-bar input {
+    flex: 1;
+    min-width: 200px;
+    padding: 12px 15px;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    font-size: 15px;
+    outline: none;
+    transition: 0.3s;
+}
+
+.search-bar input:focus {
+    border-color: #4c35e6;
+    box-shadow: 0 0 0 2px rgba(76, 53, 230, 0.1);
+}
+
+.search-bar button {
+    padding: 10px 20px;
+    background-color: #f1f3f5;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    color: #555;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.search-bar button:hover {
+    background-color: #e2e6ea;
+}
+
+.filters {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+.filters select {
+    flex: 1;
+    min-width: 150px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    color: #333;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.table-container {
+    background-color: #ffffff;
+    border-radius: 8px;
+    border: 1px solid #eaeaea;
+    overflow-x: auto;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.03);
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    text-align: center;
+    min-width: 800px;
+    font-size: 14px;
+}
+
+thead tr {
+    background-color: #f8f9fa;
+    border-bottom: 2px solid #e1e4e8;
+    color: #555;
+}
+
+th {
+    padding: 15px 10px;
+    font-weight: bold;
+}
+
+td {
+    padding: 15px 10px;
+    border-bottom: 1px solid #f0f0f0;
+    color: #444;
+}
+
+.text-left {
+    text-align: left;
+}
+
+.school-name {
+    font-weight: bold;
+    color: #191970;
+}
+
+.badge {
+    padding: 4px 12px;
+    border-radius: 4px;
+    font-weight: bold;
+    font-size: 13px;
+}
+
+.badge-public {
+    background-color: #e3f2fd;
+    color: #1565c0;
+    border: 1px solid #bbdefb;
+}
+
+.badge-private {
+    background-color: #fff3e0;
+    color: #e65100;
+    border: 1px solid #ffe0b2;
+}
+
+tbody tr:hover {
+    background-color: #fcfcfc;
+}

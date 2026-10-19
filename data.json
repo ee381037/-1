@@ -1,0 +1,10 @@
+[
+    {"type": "公立", "college": "電機資訊學院", "school": "成功大學", "department": "資訊工程學系", "quota": "145", "subjects": "1.程式設計 2.計算機數學 3.計算機組織與系統"},
+    {"type": "公立", "college": "電機資訊學院", "school": "成功大學", "department": "人工智慧科技碩士學位學程", "quota": "15", "subjects": "1.程式設計 2.計算機數學 3.計算機組織與系統"},
+    {"type": "公立", "college": "工學院", "school": "成功大學", "department": "機械工程學系 甲組", "quota": "56", "subjects": "筆試:熱力學、流體力學 / 面試(40%)"},
+    {"type": "公立", "college": "工學院", "school": "成功大學", "department": "機械工程學系 乙組", "quota": "55", "subjects": "筆試:工程數學、材料力學、動力學"},
+    {"type": "公立", "college": "理學院", "school": "成功大學", "department": "物理學系", "quota": "60", "subjects": "審查(50%) / 面試(50%)"},
+    {"type": "公立", "college": "文學院", "school": "成功大學", "department": "中國文學系 甲組", "quota": "7", "subjects": "一、中國文學史 二、中國思想史 三、中國語言文字學 四、古典文獻解讀"},
+    {"type": "私立", "college": "電機資訊學院", "school": "逢甲大學", "department": "資訊工程學系", "quota": "2", "subjects": "審查(100%)"},
+    {"type": "私立", "college": "工學院", "school": "逢甲大學", "department": "機械與電腦輔助工程學系", "quota": "4", "subjects": "審查(100%)"}
+]
